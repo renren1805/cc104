@@ -1,0 +1,6 @@
+def factoril(n):
+    if n == 0:
+        return 1
+    return n * factoril(n - 1)  
+
+print(factoril(5))
