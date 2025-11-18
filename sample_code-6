@@ -1,0 +1,13 @@
+def dinary_search(arr_kdm, target):
+    low, high = 0, len(arr_kdm) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr_kdm[mid] == target:
+            return mid
+        elif arr_kdm[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+print(dinary_search([10, 20, 30, 40, 50], 40))  # Output: 3
