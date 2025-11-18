@@ -1,0 +1,11 @@
+stack_kdm = []
+stack_kdm.append("plate1")
+stack_kdm.append("plate2")
+stack_kdm.append("plate3") 
+stack_kdm.append("plate4")
+stack_kdm.append("plate5")
+
+print( stack_kdm.pop())
+print( stack_kdm.pop())
+print( stack_kdm.pop())
+print( stack_kdm.pop())
