@@ -1,0 +1,12 @@
+from collections import deque
+queue_kdm = deque ()
+
+queue_kdm.append("Alice")
+queue_kdm.append("pang")
+queue_kdm.append("gege")
+queue_kdm.append("sicret")
+
+print(queue_kdm.popleft())
+print(queue_kdm.popleft())
+print(queue_kdm.popleft())
+print(queue_kdm.popleft())
