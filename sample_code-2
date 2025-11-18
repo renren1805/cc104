@@ -1,0 +1,15 @@
+class node:
+    def __init__(self , data):
+        self.data = data
+        self.next = None
+
+head_kdm = node ("clue 1")
+head_kdm.next = node ("clue 2")
+head_kdm.next.next = node ("clue 3")
+head_kdm.next.next.next = node ("clue 4")
+head_kdm.next.next.next.next = node ("clue 5")
+
+current = head_kdm
+while current :
+    print (current.data)
+    current = current.next
