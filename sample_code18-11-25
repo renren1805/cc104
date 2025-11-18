@@ -1,0 +1,7 @@
+#sample code
+ 
+#array= school lockers
+student_kdm = ["Alice" , "Bob", "Charlie", "Diana", ]
+
+#direct access by index (o(1))
+print("locker 2 has :", student_kdm[-3] )#Bob
